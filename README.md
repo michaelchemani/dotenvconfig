@@ -48,4 +48,4 @@ func main() {
 
 ## Documentation
 
-[https://godoc.org/github.com/alexsasharegan/dotenv](https://godoc.org/github.com/alexsasharegan/dotenv)
+[https://godoc.org/github.com/michaelchemani/dotenvconfig](https://godoc.org/github.com/michaelchemani/dotenvconfig)
