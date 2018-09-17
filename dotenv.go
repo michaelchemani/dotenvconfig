@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-// Load the variables into the environment. By default, default.env will be loaded and can be ovveriden by any .env file (dev.env, staging.env...)
+// Load the variables into the environment. By default, default.env will be loaded and can be overwritten by any .env file (dev.env, staging.env...)
 func Load(files ...string) {
 	files = append([]string{"default.env"}, files...)
 
