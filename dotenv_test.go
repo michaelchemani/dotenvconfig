@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lightspeedretail/test/dotenvconfig"
+	"github.com/lightspeedretail/dotenvconfig"
 )
 
 func TestOverrideDefaultValue(t *testing.T) {
