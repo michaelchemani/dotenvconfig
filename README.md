@@ -31,29 +31,6 @@ In your application:
 package main
 
 import (
-    "fmt"
-    "log"
-    "os"
-
-    "github.com/alexsasharegan/dotenv"
-)
-
-func main() {
-  err := dotenv.Load()
-  if err != nil {
-    log.Fatalf("Error loading .env file: %v", err)
-  }
-
-  s3Bucket := os.Getenv("S3_BUCKET")
-  secretKey := os.Getenv("SECRET_KEY")
-
-  fmt.Println(os.Getenv("MESSAGE"))
-}
-
-
-package main
-
-import (
     "os"
 
     "github.com/michaelchemani/dotenvconfig"
